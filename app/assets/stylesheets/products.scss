@@ -45,10 +45,22 @@ main section.categories-show {
         top: 0;
         right: 0;
         padding: 10px;
-        background-color: #eee;
+        background-color: rgb(158, 158, 158);
         border-top-right-radius: 4px;
         border-bottom-left-radius: 20px;
         font-size: 0.8em;
+      }
+
+      aside.sold-out {
+        color: white;
+        position: absolute;
+        top: 0;
+        left: 0;
+        padding: 10px;
+        background-color: rgb(243, 128, 128);
+        border-top-left-radius: 4px;
+        border-bottom-right-radius: 20px;
+        font-size: 1.0em;
       }
 
       &:hover {
