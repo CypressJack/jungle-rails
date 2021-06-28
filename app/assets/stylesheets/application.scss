@@ -22,3 +22,10 @@ form.button_to {
   border: 2px solid rgb(97, 152, 255);
   background-color: rgb(189, 212, 255);
 }
+
+.dashboard {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: flex-start;
+}
